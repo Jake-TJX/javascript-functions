@@ -101,7 +101,7 @@ if (startPatterns[pattern] && !isNaN(parseInt(iterations))) {
 } else {
     console.log('Usage: node js/gameoflife.js rpentomino 50');
 }
-
+ 
 exports.seed = seed;
 exports.same = same;
 exports.contains = contains;
